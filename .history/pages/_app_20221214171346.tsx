@@ -5,6 +5,7 @@ import { StoreProvider } from '../utils/Store'
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <StoreProvider>
+
       <Component {...pageProps} />
     </StoreProvider>
 
